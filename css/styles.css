@@ -73,6 +73,7 @@ html {
 }
 
 .container__logo  a {
+	text-align: center;
 	text-decoration: none;
 	color: #f0aedc;
 	font-size: 6rem;
@@ -861,12 +862,37 @@ html {
 
 	border-top: 1px solid #d2b495;
 }
+/* ******************************   ********* */
+/* ********zapatos  ********* */
+/* ******************************   ********* */
 
 
+/************ GRILLA******** */
+.gallery-zapatos img{
+	width: 100%;
+	height: 60rem;
+}
+.col-lg-4{
+	padding: 2rem;
 
-/* ********************************** */
-/*       MEDIA QUERIES -- 768px       */
-/* ********************************** */
+}
+.gallery-zapatos img:hover{
+border: 0.5rem solid #777;
+}
+.cards-comprar  img{
+	width: 100%;
+	height: 40rem;
+}
+.card-body, .list-group-item{
+	background-color: #f5e5d1;
+	;
+}
+.card-link {
+	text-decoration: none;
+	color: rgb(244, 130, 149);
+	text-transform: uppercase;
+}
+/* ********MEDIA QUERIES -- 768px   ********* */
 @media (max-width: 768px) {
 	html {
 		font-size: 55%;
@@ -967,9 +993,7 @@ html {
 	}
 }
 
-/* ********************************** */
-/*       MEDIA QUERIES -- 468px       */
-/* ********************************** */
+/* ************** MEDIA QUERIES -- 468px ******************** */
 @media (max-width: 468px) {
 	html {
 		font-size: 42.5%;
