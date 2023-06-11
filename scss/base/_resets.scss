@@ -2,6 +2,13 @@
 /* font-family: 'Libre Baskerville', serif; */
 @import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
 /* font-family: 'Signika Negative', sans-serif; */
+@mixin flex  ($direction, $justify, $align, $gap){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+    gap: $gap;
+}
 :root {
 	--primary-color: #f0aedc;
 	--icons-color: pink;

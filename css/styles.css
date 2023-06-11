@@ -292,7 +292,7 @@ html {
 .information ul li,
 .my-account ul li {
   list-style: none;
-  color: #fff;
+  color: #6a0441;
   font-size: 1.4rem;
   font-weight: 300;
 }
@@ -300,20 +300,19 @@ html {
 .information ul li a,
 .my-account ul li a {
   text-decoration: none;
-  color: #fff;
+  color: #49043e;
   font-weight: 300;
 }
 
 .information ul li a:hover,
 .my-account ul li a:hover {
-  color: var(--dark-color);
+  color: whitesmoke;
 }
 
 .social-icons {
   display: flex;
   gap: 1.5rem;
 }
-
 .social-icons span {
   border-radius: 50%;
   width: 3rem;
@@ -350,7 +349,7 @@ html {
 
 .content p {
   font-size: 1.4rem;
-  color: #fff;
+  color: #4e043e;
   font-weight: 300;
 }
 .content p input {
@@ -498,8 +497,7 @@ html {
   font-size: 1.5rem;
   color: var(--dark-color);
 }
-
-.button-group span:hover i {
+.button-group span i:hover {
   color: #fff;
 }
 
@@ -533,7 +531,6 @@ html {
   margin-bottom: 1rem;
   cursor: pointer;
 }
-
 .content-card-product h3:hover {
   color: var(--primary-color);
 }
@@ -557,7 +554,6 @@ html {
 .add-cart:hover {
   background-color: var(--icons-color);
 }
-
 .add-cart:hover i {
   color: #fff;
 }
@@ -755,7 +751,7 @@ html {
 }
 
 /* ***************nuevos modelos******************* */
-.specials {
+.specials, .card-blog, .blogs {
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -763,22 +759,10 @@ html {
 }
 
 /* ***************BLOGS******************* */
-.blogs {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
 .container-blogs {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 3rem;
-}
-
-.card-blog {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
 }
 
 .card-blog .container-img {
@@ -840,7 +824,6 @@ html {
   color: var(--primary-color);
   font-size: 1.3rem;
 }
-
 .content-blog h3:hover {
   color: var(--primary-color);
   cursor: pointer;
@@ -857,7 +840,6 @@ html {
   display: inline-block;
   cursor: pointer;
 }
-
 .btn-read-more:hover {
   background-color: var(--dark-color);
 }
@@ -924,6 +906,30 @@ html {
   border-radius: 2rem;
   gap: 2rem;
 }
+.card-category p {
+  font-size: 2rem;
+  color: #fff;
+  text-transform: capitalize;
+  position: relative;
+}
+.card-category p span {
+  font-size: 1.6rem;
+  color: #fff;
+  cursor: pointer;
+}
+.card-category p :after {
+  content: "";
+  width: 2.5rem;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  bottom: -1rem;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+.card-category p span:hover {
+  color: var(--icons-color);
+}
 
 .category-botas {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3333333333), rgba(0, 0, 0, 0.3333333333)), url("../images/modelo h.jpg");
@@ -944,33 +950,6 @@ html {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-}
-
-.card-category p {
-  font-size: 2rem;
-  color: #fff;
-  text-transform: capitalize;
-  position: relative;
-}
-.card-category p span {
-  font-size: 1.6rem;
-  color: #fff;
-  cursor: pointer;
-}
-
-.card-category p::after {
-  content: "";
-  width: 2.5rem;
-  height: 2px;
-  background-color: #fff;
-  position: absolute;
-  bottom: -1rem;
-  left: 50%;
-  transform: translate(-50%, 50%);
-}
-
-.card-category span:hover {
-  color: var(--icons-color);
 }
 
 /************bootstrap******** */
