@@ -58,10 +58,6 @@
 	}
 }
 
-
-
-
-
 .container__cart {
 	display: flex;
 	gap: 1rem;
@@ -116,27 +112,24 @@
 		text-transform: uppercase;
 		position: relative;
 	}
-}
-
-.menu a::after {
-	content: '';
-	width: 1.5rem;
-	height: 1px;
-	background-color: #fff;
-	position: absolute;
-	bottom: -3px;
-	left: 50%;
-	transform: translate(-50%, 50%);
-	opacity: 0;
-	transition: all 0.3s ease;
-}
-
-.menu a:hover::after {
-	opacity: 1;
-}
-
-.menu a:hover {
-	color: #fff;
+	a::after {
+		content: '';
+		width: 1.5rem;
+		height: 1px;
+		background-color: #fff;
+		position: absolute;
+		bottom: -3px;
+		left: 50%;
+		transform: translate(-50%, 50%);
+		opacity: 0;
+		transition: all 0.3s ease;
+	}
+	a:hover::after {
+		opacity: 1;
+	}
+	a:hover {
+		color: #fff;
+	}
 }
 
 .search__form {

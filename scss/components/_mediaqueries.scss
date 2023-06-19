@@ -1,114 +1,10 @@
-/* ************** MEDIA QUERIES -- 468px ******************** */
-@media (max-width: 468px) {
-	html {
-		font-size: 42.5%;
-	}
-
-	.container__field {
-		max-width: 100%;
-		padding: 2.2rem ;
-	}
-	.content-img-principal{
-		padding: 8rem;
-	
-	}
-	.heading-1 {
-		font-size: 2.8rem;
-	}
-
-	.card-feature {
-		flex-direction: column;
-		border-radius: 2rem;
-	}
-
-	.feature-content {
-		align-items: center;
-	}
-
-	.feature-content p {
-		font-size: 1.4rem;
-		text-align: center;
-	}
-
-	.feature-content span {
-		font-size: 1.6rem;
-		text-align: center;
-	}
-
-	.container-options span {
-		font-size: 1.8rem;
-		padding: 1rem 1.5rem;
-		font-weight: 500;
-	}
-
-	.container-products {
-		grid-template-columns: repeat(auto-fit, minmax(25rem, 2fr));
-		gap: 1rem;
-	}
-
-	.container-img .discount {
-		font-size: 2rem;
-	}
-
-	.content-card-product h3 {
-		font-size: 2.2rem;
-	}
-
-	.gallery {
-		grid-template-rows: repeat(2, 20rem);
-	}
-
-	.blogs {
-		padding: 2rem;
-	}
-
-	.container-blogs {
-		grid-template-columns: 1fr;
-		height: 75rem;
-	}
-
-	.content-blog h3 {
-		font-size: 2.4rem;
-	}
-
-	.content-blog span {
-		font-size: 1.8rem;
-	}
-
-	.content-blog p {
-		font-size: 2.2rem;
-	}
-
-	.btn-read-more{
-		font-size: 1.8rem;
-	}
-
-	.contact-info ul,
-	.information ul,
-	.my-account ul{
-		display: none;
-	}
-
-	.contact-info {
-		align-items: center;
-	}
-
-	.menu-footer{
-		grid-template-columns: 1fr;
-	}
-
-	.content p{
-		font-size: 1.6rem;
-	}
-}
-/* ********MEDIA QUERIES -- 768px   ********* */
 @media (max-width: 768px) {
 	html {
-		font-size: 55%;
+		font-size: 57%;
 	}
 
 	.field {
-		padding: 0.3rem;
+		padding:2rem;
 	}
 
 	.heart {
@@ -149,26 +45,26 @@
 
 	.card-category {
 		height: 12rem;
+		p {
+			font-size: 2rem;
+			text-align: center;
+			line-height: 1;
+		}
+		span {
+			font-size: 1.4rem;
+		}
 	}
-
-	.card-category p {
-		font-size: 2rem;
-		text-align: center;
-		line-height: 1;
-	}
-
-	.card-category span {
-		font-size: 1.4rem;
-	}
+ 
 
 	.container-options {
 		align-items: center;
+		span {
+			text-align: center;
+			padding: 1rem 2rem;
+		}
 	}
 
-	.container-options span {
-		text-align: center;
-		padding: 1rem 2rem;
-	}
+ 
 
 	.container-products {
 		grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
@@ -196,3 +92,104 @@
 		gap: 1.5rem;
 	}
 }
+/* ************** MEDIA QUERIES -- 468px ******************** */
+@media (max-width: 468px) {
+	html {
+		font-size: 42.5%;
+	}
+
+	.container__field {
+		max-width: 100%;
+		padding: 2.2rem ;
+	}
+	.content-img-principal{
+		padding: 8rem;
+	
+	}
+	.heading-1 {
+		font-size: 2.8rem;
+	}
+
+	.card-feature {
+		flex-direction: column;
+		border-radius: 2rem;
+	}
+
+	.feature-content {
+		align-items: center;
+	}
+
+	.feature-content p {
+		font-size: 1.4rem;
+		text-align: center;
+		span {
+			font-size: 1.6rem;
+			text-align: center;
+		}
+	}
+
+	.container-options span {
+		font-size: 1.8rem;
+		padding: 1rem 1.5rem;
+		font-weight: 500;
+	}
+
+	.container-products {
+		grid-template-columns: repeat(auto-fit, minmax(25rem, 2fr));
+		gap: 1rem;
+	}
+
+	.container-img .discount {
+		font-size: 2rem;
+	}
+
+	.content-card-product h3 {
+		font-size: 2.2rem;
+	}
+
+	.gallery {
+		grid-template-rows: repeat(2, 20rem);
+	}
+
+	.blogs {
+		padding: 2rem;
+	}
+
+	.container-blogs {
+		grid-template-columns: 1fr;
+		height: 75rem;
+	}
+
+	.content-blog h3 {
+		font-size: 2.4rem;
+		span {
+			font-size: 1.8rem;
+		}
+		p {
+			font-size: 2.2rem;
+		}
+	}
+
+	.btn-read-more{
+		font-size: 1.8rem;
+	}
+
+	.contact-info ul,
+	.information ul,
+	.my-account ul{
+		display: none;
+	}
+
+	.contact-info {
+		align-items: center;
+	}
+
+	.menu-footer{
+		grid-template-columns: 1fr;
+	}
+
+	.content p{
+		font-size: 1.6rem;
+	}
+}
+
