@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media screen and (min-width: 760px)and (max-width: 1024px) {
 	html {
 		font-size: 57%;
 	}
@@ -25,7 +25,7 @@
 		font-size: 3rem;
 	}
 	.container__field {
-		max-width: 5.0rem;
+		max-width: 100%;
 		margin: 0 auto;
 		padding: 2.5rem 0;
 	}
@@ -36,7 +36,7 @@
 	}
 
 	.card-feature {
-		padding: 2rem;
+		padding: 3rem;
 	}
 
 	.heading-1 {
@@ -67,17 +67,17 @@
  
 
 	.container-products {
-		grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+		grid-template-columns: repeat(2, minmax(28rem, 1fr));
 	}
 
 	.gallery {
-		grid-template-rows: repeat(2, 15rem);
+		grid-template-rows: repeat(1, 15rem);
 	}
 
 	.container-blogs {
+		padding-top: 3rem;
 		overflow: hidden;
 		grid-template-columns: 1fr 1fr;
-
 		height: 52rem;
 	}
 
@@ -93,14 +93,40 @@
 	}
 }
 /* ************** MEDIA QUERIES -- 468px ******************** */
-@media (max-width: 468px) {
+@media screen and (min-width: 315px) and (max-width: 468px) {
 	html {
 		font-size: 42.5%;
+	}
+	.field {
+		padding:2rem;
+	}
+
+	.heart {
+		display: none;
+	}
+
+	.content-shopping-cart {
+		display: none;
+	}
+
+	.navbar {
+		padding: 1rem 2rem;
+	}
+
+	.navbar .fa-bars {
+		display: block;
+		color: #fff;
+		font-size: 3rem;
+	}
+	.container__field {
+		max-width: 100%;
+		margin: 0 auto;
+		padding: 2.5rem 0;
 	}
 
 	.container__field {
 		max-width: 100%;
-		padding: 2.2rem ;
+		padding: 2.5rem ;
 	}
 	.content-img-principal{
 		padding: 8rem;
@@ -130,13 +156,15 @@
 
 	.container-options span {
 		font-size: 1.8rem;
-		padding: 1rem 1.5rem;
+		padding: 2rem 2.3rem;
 		font-weight: 500;
 	}
 
 	.container-products {
-		grid-template-columns: repeat(auto-fit, minmax(25rem, 2fr));
+		grid-template-columns: repeat(1, minmax(15rem, 1fr));
 		gap: 1rem;
+		width: 90%;
+		padding-left: 5rem;
 	}
 
 	.container-img .discount {
@@ -157,7 +185,7 @@
 
 	.container-blogs {
 		grid-template-columns: 1fr;
-		height: 75rem;
+		height: 130rem;
 	}
 
 	.content-blog h3 {

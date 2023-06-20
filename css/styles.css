@@ -417,7 +417,7 @@ html {
   color: #777;
   background-color: #fff;
   padding: 0.7rem 3rem;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   text-transform: capitalize;
   border-radius: 2rem;
   cursor: pointer;
@@ -434,8 +434,8 @@ html {
 /* *************** productos ******************* */
 .container-products {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 50rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 55rem;
   gap: 3rem;
 }
 
@@ -452,7 +452,7 @@ html {
 }
 .container-img img {
   width: 100%;
-  height: 33rem;
+  height: 40rem;
 }
 
 .container-img .discount {
@@ -509,14 +509,14 @@ html {
   display: grid;
   justify-items: center;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(4, min-content);
+  grid-template-rows: repeat(2, min-content);
   row-gap: 1rem;
 }
 .content-card-product h3 {
-  grid-row: 2/3;
+  grid-row: 1/3;
   grid-column: 1/-1;
   font-weight: 400;
-  font-size: 1.6rem;
+  font-size: 2rem;
   margin-bottom: 1rem;
   cursor: pointer;
 }
@@ -525,7 +525,7 @@ html {
 }
 
 .stars {
-  padding-top: 1rem;
+  padding-top: 2.5rem;
   grid-row: 1/2;
   grid-column: 1/-1;
 }
@@ -560,7 +560,7 @@ html {
 .content-card-product .price {
   justify-self: end;
   align-self: center;
-  font-size: 1.7rem;
+  font-size: 1.9rem;
   font-weight: 600;
 }
 .content-card-product .price span {
@@ -601,8 +601,12 @@ html {
 /* ***************BLOGS******************* */
 .container-blogs {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 3rem;
+}
+
+.heading-1 {
+  padding-top: 3rem;
 }
 
 .card-blog .container-img {
@@ -710,7 +714,7 @@ html {
 }
 .feature-content section {
   font-weight: 10rem;
-  font-size: 1.8rem;
+  font-size: 2rem;
   color: var(--dark-color);
   text-transform: uppercase;
 }
@@ -845,12 +849,13 @@ html {
   align-items: center;
 }
 
-.c-item {
+carousel-item {
+  width: 100%;
   height: 100rem;
 }
 
 .c-image {
-  height: 100%;
+  width: 100%;
   object-fit: cover;
   filter: brightness(0.8);
 }
@@ -864,7 +869,7 @@ html {
   align-items: center;
 }
 
-@media (max-width: 768px) {
+@media screen and (min-width: 760px) and (max-width: 1024px) {
   html {
     font-size: 57%;
   }
@@ -886,7 +891,7 @@ html {
     font-size: 3rem;
   }
   .container__field {
-    max-width: 5rem;
+    max-width: 100%;
     margin: 0 auto;
     padding: 2.5rem 0;
   }
@@ -895,7 +900,7 @@ html {
     padding: 3rem 2rem;
   }
   .card-feature {
-    padding: 2rem;
+    padding: 3rem;
   }
   .heading-1 {
     font-size: 2.4rem;
@@ -919,12 +924,13 @@ html {
     padding: 1rem 2rem;
   }
   .container-products {
-    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+    grid-template-columns: repeat(2, minmax(28rem, 1fr));
   }
   .gallery {
-    grid-template-rows: repeat(2, 15rem);
+    grid-template-rows: repeat(1, 15rem);
   }
   .container-blogs {
+    padding-top: 3rem;
     overflow: hidden;
     grid-template-columns: 1fr 1fr;
     height: 52rem;
@@ -940,13 +946,35 @@ html {
   }
 }
 /* ************** MEDIA QUERIES -- 468px ******************** */
-@media (max-width: 468px) {
+@media screen and (min-width: 315px) and (max-width: 468px) {
   html {
     font-size: 42.5%;
   }
+  .field {
+    padding: 2rem;
+  }
+  .heart {
+    display: none;
+  }
+  .content-shopping-cart {
+    display: none;
+  }
+  .navbar {
+    padding: 1rem 2rem;
+  }
+  .navbar .fa-bars {
+    display: block;
+    color: #fff;
+    font-size: 3rem;
+  }
   .container__field {
     max-width: 100%;
-    padding: 2.2rem;
+    margin: 0 auto;
+    padding: 2.5rem 0;
+  }
+  .container__field {
+    max-width: 100%;
+    padding: 2.5rem;
   }
   .content-img-principal {
     padding: 8rem;
@@ -971,12 +999,14 @@ html {
   }
   .container-options span {
     font-size: 1.8rem;
-    padding: 1rem 1.5rem;
+    padding: 2rem 2.3rem;
     font-weight: 500;
   }
   .container-products {
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 2fr));
+    grid-template-columns: repeat(1, minmax(15rem, 1fr));
     gap: 1rem;
+    width: 90%;
+    padding-left: 5rem;
   }
   .container-img .discount {
     font-size: 2rem;
@@ -992,7 +1022,7 @@ html {
   }
   .container-blogs {
     grid-template-columns: 1fr;
-    height: 75rem;
+    height: 130rem;
   }
   .content-blog h3 {
     font-size: 2.4rem;
