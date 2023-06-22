@@ -45,12 +45,12 @@
 	gap: 0.5rem;
 	i {
 		font-size: 3rem;
-		color: pink;
+		color: var(--icons-color);
 	}
 	a {
 		text-align: center;
 		text-decoration: none;
-		color: #f0aedc;
+		color: var(--icons-color);
 		font-size: 6rem;
 		text-transform: uppercase;
 		letter-spacing: -1px;

@@ -4,8 +4,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap");
 /* font-family: 'Signika Negative', sans-serif; */
 :root {
-  --primary-color: #f0aedc;
-  --icons-color: pink;
+  --primary-color: #f11cb1;
+  --icons-color: rgb(252, 127, 148);
   --background-color: #f5e5d1;
   --dark-color: #151515;
 }
@@ -68,12 +68,12 @@ html {
 }
 .container__logo i {
   font-size: 3rem;
-  color: pink;
+  color: var(--icons-color);
 }
 .container__logo a {
   text-align: center;
   text-decoration: none;
-  color: #f0aedc;
+  color: var(--icons-color);
   font-size: 6rem;
   text-transform: uppercase;
   letter-spacing: -1px;
@@ -245,7 +245,7 @@ html {
 
 /* ***************FOOTER ******************* */
 .footer {
-  background-color: var(--primary-color);
+  background-color: var(--icons-color);
 }
 
 .container-footer {
