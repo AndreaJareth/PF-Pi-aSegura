@@ -808,6 +808,10 @@ html {
   border: 0.5rem solid #777;
 }
 
+.container-fotos {
+  margin: 0 auto;
+}
+
 .cards-comprar img {
   width: 100%;
   height: 40rem;
