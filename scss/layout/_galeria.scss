@@ -34,6 +34,7 @@
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	gap: 3rem;
+	padding: 5rem;
 }
 
 .heading-1{
@@ -84,28 +85,24 @@
 }
 
 
-.content-blog h3 {
-	font-size: 1.8rem;
-	margin-bottom: 1.7rem;
-	color: var(--dark-color);
-	font-weight: 500;
-	p {
-		margin-top: 1rem;
-		font-size: 1.4rem;
-		color: #777;
-	}
-	span {
-		color: var(--primary-color);
-		font-size: 1.3rem;
-	}
-	&:hover {
-		color: var(--primary-color);
-		cursor: pointer;
-	}
-	
+.content-blog {
+		h3, h5 {
+		font-size: 4rem;
+		margin-bottom: 1.7rem;
+		color: var(--dark-color);
+		font-weight: 500;
+		}
+		p {
+			margin-top: 1rem;
+			font-size: 1.8rem;
+			color: var(--dark-color);
+		}
+		&:hover {
+			color: var(--primary-color);
+			cursor: pointer;
+		}
 }
 
- 
 .btn-read-more {
 	a{
 		text-decoration: none;

@@ -135,10 +135,13 @@
 	.heading-1 {
 		font-size: 2.8rem;
 	}
+	.container-features {
+		grid-template-columns: repeat(2, 1fr);
+		padding: 3rem 2rem;
+	}
 
 	.card-feature {
-		flex-direction: column;
-		border-radius: 2rem;
+		padding: 3rem;
 	}
 
 	.feature-content {
@@ -185,7 +188,7 @@
 
 	.container-blogs {
 		grid-template-columns: 1fr;
-		height: 130rem;
+		height: 150rem;
 	}
 
 	.content-blog h3 {
@@ -207,6 +210,10 @@
 	.my-account ul{
 		display: none;
 	}
+	
+	.title-footer{
+		font-size: 2.3rem;
+	}
 
 	.contact-info {
 		align-items: center;
@@ -217,7 +224,26 @@
 	}
 
 	.content p{
+		font-size: 2rem;
+	}
+
+	.list-group-item {
+		font-size: 1.8rem;
+	}
+	.card-text {
+		padding: 1rem;
+		height: 10rem;
+		font-size: 1.9rem;
+		text-align: justify;
+	}
+	.card-link {
 		font-size: 1.6rem;
+		text-decoration: none;
+		color: rgb(244, 130, 149);
+		text-transform: uppercase;
+	}
+	.carousel-caption{
+		max-width: auto;
 	}
 }
 
