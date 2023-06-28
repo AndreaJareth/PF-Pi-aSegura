@@ -421,6 +421,7 @@ html {
   text-transform: capitalize;
   border-radius: 2rem;
   cursor: pointer;
+  list-style-type: none;
 }
 .container-options li:hover {
   background-color: var(--icons-color);
@@ -666,6 +667,9 @@ html {
   cursor: pointer;
 }
 
+.btn-read-more li {
+  list-style-type: none;
+}
 .btn-read-more a {
   text-decoration: none;
   padding: 1rem 3rem;
@@ -749,6 +753,7 @@ html {
   color: #fff;
   text-transform: capitalize;
   position: relative;
+  list-style-type: none;
 }
 .card-category p a, .card-category li a {
   text-decoration: none;
@@ -963,7 +968,7 @@ label {
   border-radius: var(--bs-border-radius);
 }
 
-@media screen and (min-width: 760px) and (max-width: 1024px) {
+@media screen and (min-width: 469px) and (max-width: 1024px) {
   html {
     font-size: 57%;
   }
@@ -1027,7 +1032,7 @@ label {
     padding-top: 3rem;
     overflow: hidden;
     grid-template-columns: 1fr 1fr;
-    height: 52rem;
+    height: auto;
   }
   .menu-footer {
     grid-template-columns: repeat(2, 1fr);
@@ -1119,7 +1124,7 @@ label {
   }
   .container-blogs {
     grid-template-columns: 1fr;
-    height: 150rem;
+    height: auto;
   }
   .content-blog h3 {
     font-size: 2.4rem;

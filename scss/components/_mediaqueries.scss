@@ -1,4 +1,4 @@
-@media screen and (min-width: 760px)and (max-width: 1024px) {
+@media screen and (min-width: 469px)and (max-width: 1024px) {
 	html {
 		font-size: 57%;
 	}
@@ -78,8 +78,9 @@
 		padding-top: 3rem;
 		overflow: hidden;
 		grid-template-columns: 1fr 1fr;
-		height: 52rem;
+		height: auto;
 	}
+
 
 	.menu-footer {
 		grid-template-columns: repeat(2, 1fr);
@@ -188,7 +189,7 @@
 
 	.container-blogs {
 		grid-template-columns: 1fr;
-		height: 150rem;
+		height: auto;
 	}
 
 	.content-blog h3 {

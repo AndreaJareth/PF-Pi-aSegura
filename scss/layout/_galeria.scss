@@ -104,6 +104,9 @@
 }
 
 .btn-read-more {
+	li{
+		list-style-type: none;
+	}
 	a{
 		text-decoration: none;
 		padding: 1rem 3rem;
