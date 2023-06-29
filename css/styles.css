@@ -243,6 +243,14 @@ html {
   background-color: var(--background-color);
 }
 
+.menu__hamburg {
+  display: none;
+}
+
+.close {
+  display: none;
+}
+
 /* ***************FOOTER ******************* */
 .footer {
   background-color: var(--icons-color);
@@ -826,9 +834,10 @@ html {
 }
 
 .card-text {
-  padding: 1rem;
-  height: 10rem;
   font-size: 1.7rem;
+}
+.card-text p {
+  padding: 1rem;
   text-align: justify;
   object-fit: cover;
 }
@@ -840,7 +849,7 @@ html {
 }
 
 .card-link {
-  font-size: 1.2rem;
+  font-size: 2.3rem;
   text-align: center;
 }
 
@@ -1158,12 +1167,6 @@ label {
   .list-group-item {
     font-size: 1.8rem;
   }
-  .card-text {
-    padding: 1rem;
-    height: 10rem;
-    font-size: 1.9rem;
-    text-align: justify;
-  }
   .card-link {
     font-size: 1.6rem;
     text-decoration: none;
@@ -1172,6 +1175,31 @@ label {
   }
   .carousel-caption {
     max-width: auto;
+  }
+  .search__form {
+    display: none;
+  }
+  .menu {
+    flex-direction: column;
+  }
+  .menu__hamburg {
+    display: block;
+  }
+  .close {
+    display: block;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 1rem;
+    position: absolute;
+    padding: 2rem;
+    background-color: var(--icons-color);
+  }
+  .container1 {
+    max-width: 60rem;
+    height: 30rem;
   }
 }
 
