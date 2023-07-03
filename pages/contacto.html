@@ -73,76 +73,144 @@
             </nav>
           </div>
 <!-- /* *************** carrusel ******************* */ -->
+<div class="container form2">
+  <p  class="mt-5 fs-3  text-uppercase">forma parte de la familia</p>
+  <h1 class="display-1 fw-bolder text-capitalize">¡resgitrate!</h1>
+  <form class="container row g-3 needs-validation" novalidate>
+    <div class="col-md-6 row">
+      <label for="validationCustom01" class="form-label">Nombre</label>
+      <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+      <div class="valid-feedback">
+        perfecto!
+      </div>
+    </div>
+    <div class="col-sm-6 row">
+      <label for="validationCustom02" class="form-label">Apellido</label>
+      <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+      <div class="valid-feedback">
+        Pefecto!
+      </div>
+    </div>
+    <div class="col-sm-6 row">
+      <label for="validationCustomUsername" class="form-label">Nombre de usuario</label>
+      <div class="input-group has-validation">
+        <span class="input-group-text" id="inputGroupPrepend">@</span>
+        <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+        <div class="invalid-feedback">
+          Por fsvor elige un nombre de usuario.
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 row sm-2">
+      <label for="validationCustom03" class="form-label">Ciudad</label>
+      <input type="text" class="form-control" id="validationCustom03" required>
+      <div class="invalid-feedback">
+        elige una ciudad de tu estado.
+      </div>
+    </div>
+    <div class="col-sm-6 row sm-2">
+      <label for="validationCustom04" class="form-label">Estado</label>
+      <select class="form-select" id="validationCustom04" required>
+        <option selected disabled value="">elige...</option>
+        <option>...</option>
+      </select>
+      <div class="invalid-feedback row">
+        Por favor elige un estado de tu país.
+      </div>
+    </div>
+    <div class="col-sm-6 row sm-2">
+      <label for="validationCustom05" class="form-label">C.P.</label>
+      <input type="text" class="form-control" id="validationCustom05" required>
+      <div class="invalid-feedback">
+        Introduce tu C.P..
+      </div>
+    </div>
+    <div class="col-12 row sm-2">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+        <label class="form-check-label" for="invalidCheck">
+          Estoy de acuerdo con los terminos y condiciones.
+        </label>
+        <div class="invalid-feedback row">
+          MArca la casilla de acuerdo antes de suscribirte.
+        </div>
+      </div>
+    </div>
+    <div class="col-12 row sm-2">
+      <button class="btn btn-primary" type="submit">Enviar Formulario</button>
+    </div>
+  </form>
+  </div>
 <div id="carouselExample" class="carousel slide">
-    <div class="carousel-inner mb-2">
+    <div class="carousel-inner sm-2">
       <div class="carousel-item active  c-item">
         <img src="../images/pedreria.jpeg" class="d-block w-100 c-image1" alt="...">
         <div class="carousel-caption top-0 mt-5 d-none d-md-block">
             <div class="container">
               <p  class="mt-5 fs-3  text-uppercase">forma parte de la familia</p>
               <h1 class="display-1 fw-bolder text-capitalize">¡resgitrate!</h1>
-              <form class="container row g-3 needs-validation" novalidate>
+              <form class="form container row g-3 needs-validation" novalidate>
                 <div class="col-md-6 row">
-                  <label for="validationCustom01" class="form-label">First name</label>
+                  <label for="validationCustom01" class="form-label">Nombre</label>
                   <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
                   <div class="valid-feedback">
-                    Looks good!
+                    perfecto!
                   </div>
                 </div>
-                <div class="col-md-6 row">
-                  <label for="validationCustom02" class="form-label">Last name</label>
+                <div class="col-sm-6 row">
+                  <label for="validationCustom02" class="form-label">Apellido</label>
                   <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
                   <div class="valid-feedback">
-                    Looks good!
+                    Pefecto!
                   </div>
                 </div>
-                <div class="col-md-6 row">
-                  <label for="validationCustomUsername" class="form-label">Username</label>
+                <div class="col-sm-6 row">
+                  <label for="validationCustomUsername" class="form-label">Nombre de usuario</label>
                   <div class="input-group has-validation">
                     <span class="input-group-text" id="inputGroupPrepend">@</span>
                     <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
                     <div class="invalid-feedback">
-                      Please choose a username.
+                      Por fsvor elige un nombre de usuario.
                     </div>
                   </div>
                 </div>
-                <div class="col-md-6 row mb-2">
-                  <label for="validationCustom03" class="form-label">City</label>
+                <div class="col-sm-6 row sm-2">
+                  <label for="validationCustom03" class="form-label">Ciudad</label>
                   <input type="text" class="form-control" id="validationCustom03" required>
                   <div class="invalid-feedback">
-                    Please provide a valid city.
+                    elige una ciudad de tu estado.
                   </div>
                 </div>
-                <div class="col-md-6 row mb-2">
-                  <label for="validationCustom04" class="form-label">State</label>
+                <div class="col-sm-6 row sm-2">
+                  <label for="validationCustom04" class="form-label">Estado</label>
                   <select class="form-select" id="validationCustom04" required>
-                    <option selected disabled value="">Choose...</option>
+                    <option selected disabled value="">elige...</option>
                     <option>...</option>
                   </select>
                   <div class="invalid-feedback row">
-                    Please select a valid state.
+                    Por favor elige un estado de tu país.
                   </div>
                 </div>
-                <div class="col-md-6 row mb-2">
-                  <label for="validationCustom05" class="form-label">Zip</label>
+                <div class="col-sm-6 row sm-2">
+                  <label for="validationCustom05" class="form-label">C.P.</label>
                   <input type="text" class="form-control" id="validationCustom05" required>
                   <div class="invalid-feedback">
-                    Please provide a valid zip.
+                    Introduce tu C.P..
                   </div>
                 </div>
-                <div class="col-12 row mb-2">
+                <div class="col-12 row sm-2">
                   <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
                     <label class="form-check-label" for="invalidCheck">
-                      Agree to terms and conditions
+                      Estoy de acuerdo con los terminos y condiciones.
                     </label>
                     <div class="invalid-feedback row">
-                      You must agree before submitting.
+                      MArca la casilla de acuerdo antes de suscribirte.
                     </div>
                   </div>
                 </div>
-                <div class="col-12 row mb-2">
-                  <button class="btn btn-primary" type="submit">Submit form</button>
+                <div class="col-12 row sm-2">
+                  <button class="btn btn-primary" type="submit">Enviar Formulario</button>
                 </div>
               </form>
               </div>
@@ -172,31 +240,31 @@
         <span class="visually-hidden">Next</span>
     </button>
     </div>
-        </section>
+  </section>
     </header>    
     <main >
-    <section  class="gallery-zapatos">
-                <div class="container-fotos row mt-5">
-                  <div class="col-lg-4 col-md-6 col-sm-12">
-                      <img src="../images/moño lindo xafe.jpeg" alt="galeria">
-                  </div>
-                  <div class="col-lg-4 col-md-6 col-sm-12">
-                      <img src="../images/bordado petalos.jpeg" alt="galeria">
-                  </div>
-                  <div class="col-lg-4 col-md-6 col-sm-12">
-                      <img src="../images/blancos lisos v.jpeg" alt="galeria">
-                  </div>
-                  <div class="col-lg-4 col-md-6 col-sm-12">
-                      <img src="../images/pexels-photo-3076787.jpeg" alt="galeria">
-                  </div>
-                  <div class="col-lg-4 col-md-6 col-sm-12">
-                      <img src="../images/amarillos.jpeg" alt="galeria">
-                  </div>
-                  <div class="col-lg-4 col-md-6 col-sm-12">
-                      <img src="../images/canasta.jpeg" alt="galeria">
-                  </div>
-              </div>
-          </section>
+      <section  class="gallery-zapatos">
+        <div class="container-fotos row mt-5">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <img src="../images/moño lindo xafe.jpeg" alt="galeria">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <img src="../images/bordado petalos.jpeg" alt="galeria">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <img src="../images/blancos lisos v.jpeg" alt="galeria">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <img src="../images/pexels-photo-3076787.jpeg" alt="galeria">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <img src="../images/amarillos.jpeg" alt="galeria">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <img src="../images/canasta.jpeg" alt="galeria">
+        </div>
+    </div>
+</section>
     </main>
 
     <footer class="footer">
