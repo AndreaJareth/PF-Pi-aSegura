@@ -252,6 +252,10 @@ html {
   display: none;
 }
 
+.form2 {
+  display: none;
+}
+
 /* ***************FOOTER ******************* */
 .footer {
   background-color: var(--icons-color);
@@ -1189,6 +1193,7 @@ label {
     background-image: url("../images/zapatillas v.jpg");
     padding-top: 2rem;
     padding-bottom: 2rem;
+    background-repeat: no-repeat;
   }
 }
 
